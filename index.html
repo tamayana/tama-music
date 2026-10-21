@@ -19,13 +19,11 @@
     box-shadow:0 20px 60px rgba(0,0,0,0.8),0 0 40px rgba(255,85,0,0.15);
   }
   .cover-wrap{width:100%;aspect-ratio:1/1;background:#000;position:relative}
-  .cover-wrap img{width:100%;height:100%;object-fit:cover;display:block}
+  .cover-wrap img{width:100%;height:100%;object-fit:cover;display:block;cursor:pointer}
   .info{padding:20px}
   .badge{display:inline-block;background:#ff5500;color:white;font-size:11px;font-weight:800;padding:4px 10px;border-radius:20px;margin-bottom:12px;letter-spacing:0.5px}
   h1{font-size:20px;line-height:1.3;font-weight:800;margin-bottom:6px}
   .artist{color:#999;font-size:14px;margin-bottom:18px}
-  .player{background:#000;border-radius:12px;overflow:hidden;border:1px solid #222}
-  iframe{width:100%;display:block}
   .btns{display:flex;gap:10px;margin-top:16px}
   .btn{flex:1;text-align:center;padding:12px;border-radius:30px;text-decoration:none;font-weight:700;font-size:14px}
   .btn-primary{background:#ff5500;color:white}
@@ -36,26 +34,21 @@
 <body>
   <div class="card">
     <div class="cover-wrap">
-      <!-- FILE INI HARUS ADA DI REPO LU -->
-      <img src="soundcloud-logo.png" alt="Cover - Takdir Yang Memisahkan Kita">
+      <!-- KLIK FOTO = LANGSUNG KE SOUNDCLOUD LU -->
+      <a href="https://on.soundcloud.com/e8nWqZf0rgLWC0ajs3" target="_blank">
+        <img src="soundcloud-logo.png" alt="Cover - Takdir Yang Memisahkan Kita">
+      </a>
     </div>
     <div class="info">
       <div class="badge">FUNKOT IBU MENTERI SPECIAL</div>
       <h1>TAKDIR YANG MEMISAHKAN KITA</h1>
       <div class="artist">DJ DS OFFICIAL • Rahmad Pratama • 51:03</div>
       
-      <div class="player">
-        <!-- SoundCloud Embed - Link baru lu -->
-        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//on.soundcloud.com/e8nWqZf0rgLWC0ajs3&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-        </iframe>
-      </div>
-
       <div class="btns">
-        <a href="https://on.soundcloud.com/e8nWqZf0rgLWC0ajs3" class="btn btn-primary" target="_blank">▶️ SoundCloud</a>
+        <a href="https://on.soundcloud.com/e8nWqZf0rgLWC0ajs3" class="btn btn-primary" target="_blank">▶️ PUTAR SEKARANG</a>
         <a href="https://github.com/tamayana/tama-music" class="btn btn-secondary" target="_blank">GitHub</a>
       </div>
-      <div class="note">Cover FULL 1400x1400 • DJ DS Funkot 2026</div>
+      <div class="note">Tap foto di atas untuk putar • Cover FULL 1400x1400</div>
     </div>
   </div>
 </body>
