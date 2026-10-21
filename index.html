@@ -5,51 +5,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DJ DS - Takdir Yang Memisahkan Kita</title>
 <style>
-  *{margin:0;padding:0;box-sizing:border-box}
-  body{
-    background:#0a0a0a;color:white;
-    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
-    min-height:100vh;display:flex;justify-content:center;align-items:center;
-    padding:20px;
-    background: radial-gradient(circle at 50% 0%, #ff550030, #000 70%);
-  }
-  .card{
-    background:#111;border-radius:24px;max-width:420px;width:100%;
-    overflow:hidden;border:1px solid #222;
-    box-shadow:0 20px 60px rgba(0,0,0,0.8),0 0 40px rgba(255,85,0,0.15);
-  }
-  .cover-wrap{width:100%;aspect-ratio:1/1;background:#000;position:relative}
-  .cover-wrap img{width:100%;height:100%;object-fit:cover;display:block;cursor:pointer}
-  .info{padding:20px}
-  .badge{display:inline-block;background:#ff5500;color:white;font-size:11px;font-weight:800;padding:4px 10px;border-radius:20px;margin-bottom:12px;letter-spacing:0.5px}
-  h1{font-size:20px;line-height:1.3;font-weight:800;margin-bottom:6px}
-  .artist{color:#999;font-size:14px;margin-bottom:18px}
-  .btns{display:flex;gap:10px;margin-top:16px}
-  .btn{flex:1;text-align:center;padding:12px;border-radius:30px;text-decoration:none;font-weight:700;font-size:14px}
-  .btn-primary{background:#ff5500;color:white}
-  .btn-secondary{background:#222;color:white;border:1px solid #333}
-  .note{font-size:11px;color:#666;margin-top:12px;text-align:center}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#000;color:#fff;font-family:sans-serif;display:flex;justify-content:center;align-items:center;min-height:100vh;padding:20px;background:radial-gradient(circle at 50% 0%, #ff550030, #000 70%)}
+.card{background:#111;border-radius:28px;max-width:400px;width:100%;overflow:hidden;border:1px solid #222;box-shadow:0 20px 60px rgba(0,0,0,0.8)}
+.cover{width:100%;aspect-ratio:1/1;background:#000}
+.cover img{width:100%;height:100%;object-fit:cover;display:block;cursor:pointer}
+.info{padding:24px;text-align:center}
+.badge{background:#ff5500;color:#fff;font-size:11px;font-weight:800;padding:6px 14px;border-radius:20px;display:inline-block;margin-bottom:14px}
+h1{font-size:22px;font-weight:900;line-height:1.2}
+p.artist{color:#888;font-size:14px;margin:8px 0 20px}
+.btn{display:block;background:#ff5500;color:#fff;padding:16px;border-radius:50px;text-decoration:none;font-weight:900;font-size:16px}
+small{color:#555;font-size:11px;display:block;margin-top:12px}
 </style>
 </head>
 <body>
-  <div class="card">
-    <div class="cover-wrap">
-      <!-- KLIK FOTO = LANGSUNG KE SOUNDCLOUD LU -->
-      <a href="https://on.soundcloud.com/e8nWqZf0rgLWC0ajs3" target="_blank">
-        <img src="soundcloud-logo.png" alt="Cover - Takdir Yang Memisahkan Kita">
-      </a>
-    </div>
-    <div class="info">
-      <div class="badge">FUNKOT IBU MENTERI SPECIAL</div>
-      <h1>TAKDIR YANG MEMISAHKAN KITA</h1>
-      <div class="artist">DJ DS OFFICIAL • Rahmad Pratama • 51:03</div>
-      
-      <div class="btns">
-        <a href="https://on.soundcloud.com/e8nWqZf0rgLWC0ajs3" class="btn btn-primary" target="_blank">▶️ PUTAR SEKARANG</a>
-        <a href="https://github.com/tamayana/tama-music" class="btn btn-secondary" target="_blank">GitHub</a>
-      </div>
-      <div class="note">Tap foto di atas untuk putar • Cover FULL 1400x1400</div>
-    </div>
+<div class="card">
+  <div class="cover">
+    <a href="https://on.soundcloud.com/L6I77wL02gSrJm3M1K" target="_blank">
+      <img src="soundcloud-logo.png" alt="Cover">
+    </a>
   </div>
+  <div class="info">
+    <div class="badge">FUNKOT IBU MENTERI SPECIAL</div>
+    <h1>TAKDIR YANG MEMISAHKAN KITA</h1>
+    <p class="artist">DJ DS OFFICIAL • Rahmad Pratama • 51:03</p>
+    <a href="https://on.soundcloud.com/L6I77wL02gSrJm3M1K" class="btn" target="_blank">▶️ PUTAR DI SOUNDCLOUD</a>
+    <small>Tap foto untuk putar musik</small>
+  </div>
+</div>
 </body>
 </html>
